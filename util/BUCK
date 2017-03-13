@@ -1,0 +1,51 @@
+cxx_binary(
+  name = 'api',
+  srcs = [
+    'api.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:yaml-cpp',
+  ],
+)
+
+cxx_binary(
+  name = 'parse',
+  srcs = [
+    'parse.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:yaml-cpp',
+  ],
+)
+
+cxx_binary(
+  name = 'read',
+  srcs = [
+    'read.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:yaml-cpp',
+  ],
+)
+
+cxx_binary(
+  name = 'sandbox',
+  srcs = [
+    'sandbox.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:yaml-cpp',
+  ],
+)
