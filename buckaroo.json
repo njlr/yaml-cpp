@@ -1,0 +1,8 @@
+{
+  "name": "yaml-cpp",
+  "dependencies": {
+    "boost-smart-ptr": "1.63.0",
+    "boost-preprocessor": "1.63.0",
+    "boost-iterator": "1.63.0"
+  }
+}
